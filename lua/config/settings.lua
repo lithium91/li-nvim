@@ -6,6 +6,8 @@ opt.swapfile = false
 opt.backup = false
 opt.undofile = true
 
+opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
+
 opt.number = true
 
 opt.cursorline = true
