@@ -11,7 +11,7 @@ opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 opt.number = true
 
 opt.cursorline = true
-opt.signcolumn = "yes"
+opt.signcolumn = "no"
 opt.termguicolors = true
 opt.wrap = false
 opt.scrolloff = 8
