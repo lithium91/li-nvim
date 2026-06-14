@@ -15,6 +15,7 @@ vim.keymap.set("n", "@", "<nop>", { noremap = true, silent = true })
 vim.keymap.set("n", "<A-j>", ":m .+1<CR>==")
 vim.keymap.set("n", "<A-k>", ":m .-2<CR>==")
 
+-- fzf-lua keymaps
 vim.keymap.set("n", "<leader>ff", fzf.files, { desc = "Find files" })
 vim.keymap.set("n", "<leader>fg", fzf.live_grep, { desc = "Live grep" })
 vim.keymap.set("n", "<leader>fb", fzf.buffers, { desc = "Buffers" })
