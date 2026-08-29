@@ -1,10 +1,9 @@
 return {
-    "zenbones-theme/zenbones.nvim",
-    dependencies = "rktjmp/lush.nvim",
+    "ThorstenRhau/token",
     lazy = false,
     priority = 1000,
     config = function()
         vim.o.background = "light"
-        vim.cmd.colorscheme("seoulbones")
+        vim.cmd.colorscheme("token-ultra")
     end,
 }
